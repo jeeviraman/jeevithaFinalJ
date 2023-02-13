@@ -3,7 +3,9 @@
 	<groupId>DSALGOPROJECT</groupId>
 	<artifactId>Dsalgoxpathers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+<properties>
+    <aspectj.version>1.8.10</aspectj.version>
+</properties>
 	<build>
 		<plugins>
 			<plugin>
