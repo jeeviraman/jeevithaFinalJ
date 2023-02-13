@@ -10,4 +10,6 @@ public class Constants {
 	public static String SIGNIN_URL;
 	public static String HOME_URL;
 	public static String EXCEL_PATH;
+	public static String Timecomplexitypage;
+	public static String Practice_Questions_link;
 }

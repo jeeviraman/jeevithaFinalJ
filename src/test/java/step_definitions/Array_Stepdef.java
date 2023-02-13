@@ -2,6 +2,7 @@ package step_definitions;
 
 import static org.testng.Assert.assertTrue;
 
+
 import java.time.Duration;
 import java.util.ArrayList;
 
@@ -110,10 +111,10 @@ public class Array_Stepdef {
 	}
 	
 	//@TestSuit_Array_03- Given , When shared with 1
-	@Then("user should b9e redirected to {string} page")
-	public void user_should_b9e_redirected_to_page(String string) {
-	    arrayPage.lnkArraysUlist_click();
-	}
+	//@Then("user should be redirected to {string} page")
+	//public void user_should_b9e_redirected_to_page(String string) {
+	//    arrayPage.lnkArraysUlist_click();
+	//}
 
 	//@TestSuit_Array_04
 	@Given("user is in  Arrays using List page after logged in")

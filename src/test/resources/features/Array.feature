@@ -17,7 +17,7 @@ Then user should be redirected to a page having an tryEditor with a Run button t
 Scenario: navigate to Arrays using List from signin		
 Given user is in  Array page after logged in
 When user clicks "Arrays using List" button
-Then user should b9e redirected to "arrays-using-list" page
+Then user should be redirected to "arrays-using-list" page
 
 @TestSuit_Array_04
 Scenario: Open editor from Arrays using List page		

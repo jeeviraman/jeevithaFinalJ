@@ -13,6 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import constants.Constants;
 import page_objects.ArrayPage;
+import page_objects.Datastructure;
 import page_objects.HomePage;
 import page_objects.Registerpage;
 import page_objects.SigninPage;
@@ -38,7 +39,7 @@ public class common_utils {
 		Constants.SIGNIN_URL=properties.getProperty("SIGNIN_URL");
 		Constants.HOME_URL=properties.getProperty("HOME_URL");
 		Constants.EXCEL_PATH=properties.getProperty("EXCEL_PATH");
-		
+		Constants.Timecomplexitypage=properties.getProperty("Timecomplexitypage");
 	}
 	
 	//All the page class has to be initialized in this method
@@ -48,6 +49,8 @@ public class common_utils {
 		PageFactory.initElements(DriverManager.getDriver(), Registerpage.getInstance());
 		PageFactory.initElements(DriverManager.getDriver(), SigninPage.getInstance());
 		PageFactory.initElements(DriverManager.getDriver(), ArrayPage.getInstance());
+		PageFactory.initElements(DriverManager.getDriver(), Datastructure.getInstance());
+		
 	}
 	
 	public ArrayList<ArrayList<String>> readExcelData()
